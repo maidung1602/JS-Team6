@@ -1,0 +1,107 @@
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+    #logo {
+        margin-left: 80px;
+    }
+    
+    .user {
+        margin-top: 2px;
+        right: 60px;
+    }
+
+    #nav li a {
+        line-height: 60px;
+    }
+
+    #header {
+        height: 60px;
+        width: 100%;
+    }
+    
+    #banner {
+        padding-top: 80px;
+        padding-bottom: 84px;
+    }
+
+    #banner-text {
+        margin-right: 40px;
+        padding: 84px 12px 40px;
+    }
+
+    #banner .head-line {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    #banner .subhead {
+        font-size: 20px;
+    }
+
+    #banner #cover {
+        padding-top: 96px;
+        width: 300px;
+    }
+
+    #get-from-book .item {
+        padding: 28px;
+        width: 348px; 
+    }
+
+}
+/* Mobile */
+@media (max-width: 740px) {
+    
+    #header {   
+        height: 52px;
+    }
+
+    #nav li {
+        padding: 0 4px;
+        margin: 0 -7px;
+
+    }
+
+    #nav li a {
+        display: inline-block;
+        padding: 0 8px;
+        font-size: 16px;
+        line-height: 52px;
+    }
+
+    #logo {
+        width: 52px;
+        margin-left: 12px;
+        margin-right: 8px;
+    }
+
+    .signin {
+        right: 0;
+        padding: 0 8px;
+        height: 56px;
+    }
+
+    #banner-text {
+        margin: 0;
+        padding: 132px 12px 64px;
+    }
+
+    #banner .head-line {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    #banner .subhead {
+        font-size: 16px;
+    }
+   
+    #banner-img {
+        display: none;
+    }
+
+    .what-list {
+        margin-left: 0;
+    }
+
+}

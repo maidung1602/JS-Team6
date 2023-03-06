@@ -1,0 +1,97 @@
+@media (min-width: 1024px) {
+    #kata, #hira {
+        display: block !important;
+    } 
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+    #logo {
+        margin-left: 80px;
+    }
+
+    .user {
+        margin-top: 2px;
+        right: 60px;
+    }
+
+    #nav li a {
+        line-height: 60px;
+    }
+
+    #header {
+        height: 60px;
+        width: 100%;
+    }
+
+    #content img {
+        width: 360px;
+   }
+
+   .bienam {
+    margin-top: 100px;
+   }
+
+   #kata, #hira {
+    display: block !important;
+    } 
+}
+
+    
+/* Mobile */
+@media (max-width: 740px) {
+    
+    #header {   
+        height: 52px;
+    }
+
+    #nav li {
+        padding: 0 4px;
+        margin: 0 -7px;
+    }
+
+    #nav li a {
+        display: inline-block;
+        padding: 0 8px;
+        font-size: 16px;
+        line-height: 52px;
+    }
+
+    #logo {
+        width: 52px;
+        margin-left: 12px;
+        margin-right: 8px;
+    }
+
+    .signin {
+        right: 0;
+        padding: 0 8px;
+        height: 56px;
+    }
+
+    .user {
+        right: 0;
+        padding: 16px;
+        height: 56px;
+    }
+
+    #content img {
+        width: 360px;
+   }
+   #content {
+        margin-top: 92px;
+   }
+
+   .item h2 {
+        margin: 16px 0 16px;
+   }
+
+    #btn-container {
+        display: block;
+    }
+
+    #kata {
+        display: none;
+    } 
+
+}
